@@ -66,6 +66,11 @@ def fact(x):
 x=int(input())
 print(fact(x))
 ```
+or
+```python
+n=int(input())
+print(reduce (lambda x,y:x*y,range(1,n)))
+```
 
 ### Question 3
 Level 1
